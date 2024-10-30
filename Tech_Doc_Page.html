@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical documentration page</title>
+    <link rel="stylesheet" href="style-tdp.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header id="nav-header">HTML</header>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#need">Need of CSS and Js</a></li>
+            <li><a href="#tags">Basic Html Tags</a></li>
+            <li><a href="#correctpl">Creating correct page layout</a></li>
+            <li><a href="#list">Lists in Html</a></li>
+            <li><a href="#form">Forms in Html</a></li>
+            <li><a href="#table">Tables in Html</a></li>
+            <li><a href="#video">Embedding video</a></li>
+            <li><a href="#seo">SEO</a></li>
+            <li id="end-li"><a href="#ref">Refrences</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="intro" class="main-section">
+            <header>Introduction</header>
+            <p>HTML, short for HyperText Markup Language, is a foundational language for creating and displaying content on the web. As the primary language for web development, HTML defines the structure of web pages, laying out the foundation for the internet's visual and interactive elements. Each HTML document acts like a blueprint for browsers, instructing them on how to display text, images, forms, and interactive features that users engage with .</p>
+            <p>Language of the Web : </p>
+            <ul>
+                <li>HTML is considered a "markup" language rather than a programming language. This means it annotates content to inform how it should appear and behave, rather than using complex logic or computational instructions.</li>
+                <li>It’s the basis for virtually all web content, used in combination with other languages, like CSS (Cascading Style Sheets) for styling and JavaScript for interactivity.</li>
+            </ul>
+        </section>
+        <section id="need" class="main-section">
+            <header>Need of CSS and Js</header>
+            <p>HTML, CSS, and JavaScript are essential web technologies, each with a unique purpose, that together enable the creation of interactive, visually appealing, and functional websites. </p>
+            <p>Here’s why HTML alone is not enough and why CSS and JavaScript are used alongside it :</p>
+            <ul>
+                <li>HTML for Structure and Content</li>
+                <li>CSS for Styling and Layout</li>
+                <li>JavaScript for Interactivity and Functionality</li>
+            </ul>
+            <p>This trio enables developers to create websites that are not only functional but also engaging, responsive, and aesthetically pleasing .</p>
+        </section>
+        <section id="tags" class="main-section">
+            <header>Basic HTML Tags</header> 
+            <p>html tag : root of html page</p>
+            <code>< html>.....< /html></code>
+            <p>body tag : body pf page</p>
+            <code>< body>.....< /body></code>
+            <p>h1 tag : used for heading</p>
+            <code>< h1>.....< /h1></code>
+            <p>p tag : used for paragraphs</p>
+            <code>< p>.....< /p></code>
+        </section>
+        <section id="correctpl" class="main-section">
+            <header>Creating correct page layout</header>
+            <p>Creating a correct and well-organized page layout in HTML is key to ensuring your content is structured, easy to navigate, and adaptable to different screen sizes .This can be done by using right tags in right place and by use of header , footer and main tag .</p>
+            <p> The div tag is a highly versatile HTML element used to group and organize sections of content on a webpage without adding specific meaning or structure. Its primary function is to create logical divisions in content that can be targeted with CSS for styling or JavaScript for functionality, making it ideal for layout purposes. Although it lacks semantic meaning, div plays a key role in responsive design by acting as containers that can be manipulated through CSS Flexbox or Grid, allowing developers to create modular, reusable components and manage complex layouts more effectively.</p>
+        </section>
+        <section id="list" class="main-section">
+            <header>Lists in Html</header>
+            <p> Lists in HTML are essential for organizing and structuring content in a logical, easily readable format. They allow developers to present groups of related items, instructions, or data in a way that is clear and accessible for users . They also improve user experience and navigation, as items in lists can be arranged hierarchically and styled with CSS to fit different themes or designs, such as customizing bullet styles, numbering formats, and spacing. In web development, lists are indispensable for creating well-structured, accessible content layouts that improve the clarity and flow of information on a webpage. </p>
+            <code>
+                <pre>< ul>
+    < li>    < /li>
+< /ul></pre>
+            </code>
+            <p>Unordered List : </p>
+            <ul>
+                <li>An unordered list is used to display a list of items where the order does not matter .</li>
+                <li>Items are typically marked with bullet points (dots), though the style can be customized with CSS .</li>
+            </ul>
+            <p>Ordered List : </p>
+            <ul>
+                <li>Ordered lists display items in a specific sequence or rank, with each item numbered or lettered by default .</li>
+                <li>The numbering format can be customized using the type attribute (e.g., numbers, letters, Roman numerals) .</li>
+            </ul>
+            <p>Nested Lists : </p>
+            <ul>
+                <li>Lists can be nested to create sub-lists within an item. This is useful for displaying hierarchical structures, such as folders or categories .</li>
+            </ul>
+        </section>
+        <section id="form" class="main-section">
+            <header>Forms in Html</header>
+            <p>Forms in HTML are interactive elements that allow users to input and submit data to a web server, making them essential for collecting information, managing user interaction, and handling user requests. HTML forms use various elements to gather different types of data, such as text fields, checkboxes, radio buttons, dropdown menus, and buttons, which are then sent to a server for processing .</p>
+            <p>Key Elements of HTML Forms : </p>
+            <ul>
+                <li>Form Element : The form tag defines a form and serves as a container for all form elements . It has key attributes like action (the URL where the form data is sent) .</li>
+                <li>Input Fields : The input element collects various types of data, with the type attribute specifying what kind of data it gathers, such as text, password, email, number, and more.</li>
+                <li>Labels : The label element provides a description for form inputs, improving accessibility and helping users understand what each field is for .</li>
+                <li>Textarea : The textarea element is used for multi-line text input, like comments or feedback, allowing users to input large amounts of text .</li>
+            </ul>
+        </section>
+        <section id="table" class="main-section">
+            <header>Tables in Html</header>
+            <p>HTML tables are a powerful way to organize and present data in a structured, grid format using rows and columns, making it easy to view and compare information at a glance. They are particularly useful for displaying tabular data, like financial reports, schedules, and data comparisons, allowing for organized data flow on a webpage .</p>                
+            <p>Tables are essential for structuring data clearly, and with CSS, they can be customized to fit various layouts and design needs. However, they’re best reserved for data, not page layout, which is typically handled by CSS Grid or Flexbox .</p>
+            <p>Structure of Html Table : </p>
+            <ul>
+                <li>Table Element : The < table> element is the main container for all table data and contains various sub-elements that define rows, headers, and cells.</li>
+                <li>Table Row : The < tr> element defines a table row, which groups a set of cells (columns) in a horizontal row.</li>
+                <li>Table Header : The < th> element is used for table headers, which typically appear in the first row (or column) of a table to label the data below it.</li>
+                <li>Table Data : The < td> element represents a cell of data within a table row, used to contain actual data in the table.</li>
+            </ul>
+        </section>
+        <section id="video" class="main-section">
+            <header>Embedding video</header>
+            <p>In HTML, you can embed videos directly onto a webpage using the video tag, which allows you to control playback, adjust the display, and include multiple sources for compatibility across different browsers. Additionally, embedding videos from external platforms like YouTube or Vimeo is common and easy using an iframe .</p>
+            <p>Video tag method : </p>
+            <ul>
+                <li>The < video> tag lets you add videos hosted on your server, with built-in controls for play, pause, volume, and more. You can specify multiple source files for the video to ensure compatibility across different browsers, as some may support different video formats</li>
+            </ul>
+            <p>Iframe tag method : </p>
+            <ul>
+                <li>For videos hosted on platforms like YouTube or Vimeo, you can embed them with an < iframe> . This allows you to include videos without hosting them yourself, and the platforms provide the embed code directly .</li>
+            </ul>
+        </section>
+        <section id="seo" class="main-section">
+            <header>SEO</header>
+            <p>Search Engine Optimization (SEO) is a set of strategies aimed at improving a website’s visibility on search engine results pages (SERPs), with the goal of attracting organic (unpaid) traffic. SEO is crucial for businesses, content creators, and website owners who want their sites to reach more people, as higher rankings on SERPs often correlate with increased website traffic and conversions . </p>
+            <p>Some Seo tips : </p>
+            <ul>
+                <li>Set Title nice and precise telling user about your page in short . </li>
+                <li>Set meta description .</li>
+                <li>Set nice url slug .</li>
+                <li>Compress images .</li>
+                <li>Add alt text to images .</li>
+            </ul>
+        </section>
+        <section id="ref" class="main-section">
+            <header>Refrences</header>
+            <p>Refrences for this documentation is taken from : </p>
+            <ul>
+                <li><a href="https://www.codewithharry.com/" alt="No data" target="_blank">Code with Harry</a></li>
+                <li><a href="https://chatgpt.com/" alt="No data" target="_blank">Chat Gpt</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

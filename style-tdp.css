@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5 ;
+    word-spacing: 3;
+}
+
+#navbar {
+    padding: 0;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 0 ;
+    left: 0;
+    right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 300px;
+    height: 100% ;
+    border-right: 3px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav > ul {
+    padding: 0;
+}
+
+nav > header {
+    display: flex;
+    font-size: 2.75rem ;
+    margin-top: 0.5rem;
+    margin-left:1.5rem ;
+}
+
+nav > ul > li{
+    display: flex;
+    list-style: none;
+    width: 100% ;
+    font-size: 1.25rem ;
+    /* margin-left: 1.5rem; */
+    margin-right: 0;
+    border-top: 1px solid black;
+}
+
+#navbar a {
+    padding: 10px 8px ;
+    text-decoration: none ;
+}
+
+#end-li {
+    border-bottom: 2px solid black ;
+}
+
+#main-doc {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 20px ;
+    margin-left: 330px ;
+}
+
+section > header {
+    font-size: 2rem;
+    text-align: left;
+}
+
+section > p {
+    margin-left : 30px ;
+    font-size: 1rem;
+}
+
+section > ul > li {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+/* #tags > p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+} */
+
+code{
+    display: block;
+    font-size: 1rem;
+    margin-left : 30px ;
+    margin-bottom: 10px;
+    width: 90% ;
+    padding: 5px;
+    /* line-height: 2; */
+    background-color: rgb(207, 204, 204);
+}
